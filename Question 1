@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1>Welcome to My Website</h1>
-  <p>This is a simple HTML5 page.</p>
+  <p>This is a simple HTML5 page for my website.</p>
   <img src="https://unsplash.com/photos/macro-photography-of-brown-tabby-cat-ViU2AybNL3A" alt="Sample Image">
 </body>
 </html>
