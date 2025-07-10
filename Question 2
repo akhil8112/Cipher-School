@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First HTML5 Page</title>
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This is a simple HTML5 </p>
+  <img src="https://static.vecteezy.com/system/resources/previews/039/397/871/non_2x/link-icon-web-address-illustration-sign-website-symbol-or-logo-vector.jpg" alt="Sample Image">
+
+  <h2>Contact Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
