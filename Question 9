@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Traversal</title>
+</head>
+<body>
+
+  <div id="container">
+    <p id="para1">First paragraph</p>
+    <p id="para2">Second paragraph</p>
+  </div>
+
+  <script>
+    const para1 = document.getElementById("para1");
+
+    console.log("Parent Node of para1:");
+    console.log(para1.parentNode); 
+
+    console.log("Child Nodes of #container:");
+    console.log(para1.parentNode.childNodes); 
+    
+    console.log("Next Sibling of para1:");
+    console.log(para1.nextSibling); 
+    
+    console.log("Next Element Sibling of para1:");
+    console.log(para1.nextElementSibling); 
+  </script>
+
+</body>
+</html>

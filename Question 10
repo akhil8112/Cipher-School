@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic List</title>
+</head>
+<body>
+
+  <ul id="myList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <button onclick="addItem()">Add Item</button>
+
+  <script>
+    let count = 3;
+
+    function addItem() {
+      const li = document.createElement("li");
+      li.textContent = "Item " + count++;
+      document.getElementById("myList").appendChild(li);
+    }
+  </script>
+
+</body>
+</html>
